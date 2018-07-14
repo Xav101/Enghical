@@ -1,0 +1,21 @@
+This file exists to document the functionality and intended usage of variables, classes, functions, and macros.
+Feel free to add to & modify this as necessary.
+
+Variables:
+
+WINDOW_WIDTH - defines the width of the window
+WINDOW_HEIGHT - defines the height of the window
+WINDOW_NAME - display name of the window
+vid_mode - object with properties about the current monitor
+window_object - handle to the window
+
+Functions:
+get_res - gets the resolution of the primary monitor
+framebuffer_size_callback - function which is called whenever the framebuffer needs to be resized
+key_callback - function to process window input
+
+Classes:
+
+
+Macros:
+
